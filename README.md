@@ -9,6 +9,7 @@ This library is written in Rust and compiled to WebAssembly for use in Node.js a
 - ✅ Supports `SELECT`, `INSERT`, `UPDATE`, `DELETE` statements
 - ✅ Handles table aliases and fully-qualified column names
 - ✅ WebAssembly interface for JavaScript/Node.js
+
 - ❌ Does not support DDL statements (`CREATE TABLE`, `ALTER TABLE`, etc.)
 - ❌ Cannot resolve ambiguous column references without database schema
 
